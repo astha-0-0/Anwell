@@ -8,9 +8,10 @@ import UserPage from './Components/UserPage';
 import Login from './Components/Login/Login';
 
 import Caretaker from './Components/Caretaker/index';
-import AnimalDetails from './Components/Caretaker/subcontent/AnimalDetails';
+import AnimalDetails from './Components/Caretaker/subcontent/AnimalMedicalHistory';
 import ImmediateActionsMsg from './Components/Caretaker/subcontent/ImmediateActionMsg';
 import GpsTracker from './Components/Caretaker/subcontent/GpsTracker';
+import CheckupUpdate from './Components/Caretaker/subcontent/CheckupUpdate';
 
 
 import Admin from './Components/Admin/index';
@@ -35,6 +36,7 @@ function App() {
   <Route path="/caretaker" element={<Caretaker />}>
   <Route path="home" element={<Home />} />
   <Route path="animalDetails" element={<AnimalDetails />} />
+  <Route path="checkupUpdate" element={<CheckupUpdate />} />
   <Route path="actions" element={<ImmediateActionsMsg />} />
   <Route path="gpsTracker" element={<GpsTracker />} />
 

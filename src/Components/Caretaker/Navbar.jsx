@@ -18,7 +18,13 @@ function NavBar() {
                     to="/caretaker/animalDetails"
                     className=" hover:bg-gray-700 hover:text-white text-black px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Animal Details
+                    Medical History
+                  </Link>
+                  <Link
+                    to="/caretaker/checkupUpdate"
+                    className=" hover:bg-gray-700 hover:text-white text-black px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Checkup Update
                   </Link>
 
                   <Link
